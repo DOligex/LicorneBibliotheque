@@ -9,7 +9,7 @@ export class RecapMovieComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }

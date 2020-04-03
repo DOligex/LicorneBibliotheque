@@ -12,7 +12,9 @@ const routes: Routes = [
   { path: 'country', loadChildren: () => import('./pages/countrys/country/country.module').then(m => m.CountryModule) },
   { path: 'recapCountry', loadChildren: () => import('./pages/countrys/recap-country/recap-country.module').then(m => m.RecapCountryModule) },
   { path: 'recapKindPublic', loadChildren: () => import('./pages/public/recap-kind-public/recap-kind-public.module').then(m => m.RecapKindPublicModule) },
-  { path: 'kindPublic', loadChildren: () => import('./pages/public/kind-public/kind-public.module').then(m => m.KindPublicModule) }];
+  { path: 'kindPublic', loadChildren: () => import('./pages/public/kind-public/kind-public.module').then(m => m.KindPublicModule) },
+  { path: 'movie', loadChildren: () => import('./pages/movies/movie/movie.module').then(m => m.MovieModule) },
+  { path: 'recapMovie', loadChildren: () => import('./pages/movies/recap-movie/recap-movie.module').then(m => m.RecapMovieModule) }];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
