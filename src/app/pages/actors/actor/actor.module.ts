@@ -9,7 +9,7 @@ import { ActorComponent } from './actor.component';
   declarations: [ActorComponent],
   imports: [
     CommonModule,
-    ActorRoutingModule
+    ActorRoutingModule,
   ]
 })
 export class ActorModule { }

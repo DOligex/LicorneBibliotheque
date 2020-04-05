@@ -1,8 +1,11 @@
+import { HomeComponent } from './pages/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
+  { path: '', component: HomeComponent},
+  { path: 'home', component: HomeComponent},
   { path: 'movie', loadChildren: () => import('./pages/movies/movie/movie.module').then(m => m.MovieModule) },
   { path: 'recapMovie', loadChildren: () => import('./pages/movies/recap-movie/recap-movie.module').then(m => m.RecapMovieModule) },
   { path: 'actor', loadChildren: () => import('./pages/actors/actor/actor.module').then(m => m.ActorModule) },
