@@ -17,7 +17,9 @@ const routes: Routes = [
   { path: 'recapKindPublic', loadChildren: () => import('./pages/public/recap-kind-public/recap-kind-public.module').then(m => m.RecapKindPublicModule) },
   { path: 'kindPublic', loadChildren: () => import('./pages/public/kind-public/kind-public.module').then(m => m.KindPublicModule) },
   { path: 'movie', loadChildren: () => import('./pages/movies/movie/movie.module').then(m => m.MovieModule) },
-  { path: 'recapMovie', loadChildren: () => import('./pages/movies/recap-movie/recap-movie.module').then(m => m.RecapMovieModule) }];
+  { path: 'recapMovie', loadChildren: () => import('./pages/movies/recap-movie/recap-movie.module').then(m => m.RecapMovieModule) },
+  { path: 'tab-movie', loadChildren: () => import('./components/tables/tab-movie/tab-movie.module').then(m => m.TabMovieModule) },
+  { path: 'tab-actor', loadChildren: () => import('./components/tables/tab-actor/tab-actor.module').then(m => m.TabActorModule) }];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
