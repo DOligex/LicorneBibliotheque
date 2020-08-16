@@ -1,1 +1,45 @@
-@import './colortheme.scss'
+// SASS style sheet */
+// Palette color codes */
+// Palette URL: http://paletton.com/#uid=34J0u0kgm++6SYHcU+0iW++lu++ */
+
+// As hex codes */
+
+$color-primary-0: #D783FF;	// Main Primary color */
+$color-primary-1: #E9C6F9;
+$color-primary-2: #DD9CFC;
+$color-primary-3: #D16FFF;
+$color-primary-4: #CB5CFF;
+
+$color-secondary-1-0: #D0FF7D;	// Main Secondary color (1) */
+$color-secondary-1-1: #EAFEC7;
+$color-secondary-1-2: #DAFE98;
+$color-secondary-1-3: #C9FF68;
+$color-secondary-1-4: #C2FF54;
+
+$color-secondary-2-0: #FFEA7D;	// Main Secondary color (2) */
+$color-secondary-2-1: #FFF6C8;
+$color-secondary-2-2: #FFEE98;
+$color-secondary-2-3: #FFE768;
+$color-secondary-2-4: #FFE354;
+
+
+
+// As RGBa codes */
+
+$rgba-primary-0: rgba(215,131,255,1);	// Main Primary color */
+$rgba-primary-1: rgba(233,198,249,1);
+$rgba-primary-2: rgba(221,156,252,1);
+$rgba-primary-3: rgba(209,111,255,1);
+$rgba-primary-4: rgba(203, 92,255,1);
+
+$rgba-secondary-1-0: rgba(208,255,125,1);	// Main Secondary color (1) */
+$rgba-secondary-1-1: rgba(234,254,199,1);
+$rgba-secondary-1-2: rgba(218,254,152,1);
+$rgba-secondary-1-3: rgba(201,255,104,1);
+$rgba-secondary-1-4: rgba(194,255, 84,1);
+
+$rgba-secondary-2-0: rgba(255,234,125,1);	// Main Secondary color (2) */
+$rgba-secondary-2-1: rgba(255,246,200,1);
+$rgba-secondary-2-2: rgba(255,238,152,1);
+$rgba-secondary-2-3: rgba(255,231,104,1);
+$rgba-secondary-2-4: rgba(255,227, 84,1);
