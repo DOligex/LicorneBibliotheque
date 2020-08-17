@@ -27,4 +27,8 @@ export class HomeComponent implements OnInit {
   goToKindPublic() {
     this.router.navigateByUrl('/kindPublic');
   }
+  goToTestTab() {
+    this.router.navigateByUrl('/tab-actor');
+  }
+
 }

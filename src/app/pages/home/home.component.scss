@@ -1,29 +1,55 @@
+@import './../../../assets/scss/unicorntheme.scss';
+
 .kindmovie {
-  box-shadow:  -7px -7px 14px #8c55a6,
-  7px 7px 14px #ffb1ff;
+  box-shadow:  -7px -7px 14px $color-secondary-1-4,
+  7px 7px 14px $color-secondary-1-1;
+}
+.kindmovie:hover {
+  box-shadow:  -17px -17px 34px $color-secondary-1-1;
 }
 .kindpublic {
-  box-shadow:  7px -7px 14px #8c55a6,
-  -7px 7px 14px #ffb1ff;
+  box-shadow:  7px -7px 14px $color-secondary-1-4,
+  -7px 7px 14px $color-secondary-1-1;
+}
+.kindpublic:hover {
+  box-shadow:  17px -17px 34px $color-secondary-1-1;
 }
 .actor {
-  box-shadow:  -7px 7px 14px #8c55a6,
-  7px -7px 14px #ffb1ff;
+  box-shadow:  -7px 7px 14px $color-secondary-1-4,
+  7px -7px 14px $color-secondary-1-1;
+}
+.actor:hover {
+  box-shadow:  -17px 17px 34px $color-secondary-1-1;
 }
 .country {
-  box-shadow:  7px 7px 14px #8c55a6,
-  -7px -7px 14px #ffb1ff;
+  box-shadow:  7px 7px 14px $color-secondary-1-4,
+  -7px -7px 14px $color-secondary-1-1;
 }
+.country:hover {
+  box-shadow:  17px 17px 34px $color-secondary-1-1;
+}
+
 .movie {
-  background: linear-gradient(315deg, #e68cff, #c276e6);
-  box-shadow: 7px 7px 14px #ffb1ff,
-  -7px 7px 14px #ffb1ff,
-  7px -7px 14px #ffb1ff,
-  -7px -7px 14px #ffb1ff,
+  background: linear-gradient(315deg, $color-secondary-2-0, $color-primary-4);
+  box-shadow: 7px 7px 14px  $color-secondary-1-4,
+  -7px 7px 14px  $color-secondary-1-4,
+  7px -7px 14px  $color-secondary-1-4,
+  -7px -7px 14px  $color-secondary-1-4;
 }
+.movie:hover {
+  box-shadow: 17px 17px 34px  $color-secondary-1-1,
+  -17px 17px 34px  $color-secondary-1-1,
+  17px -17px 34px  $color-secondary-1-1,
+  -17px -17px 34px  $color-secondary-1-1;
+}
+.kindmovie:hover:hover, .kindpublic:hover:hover, .country:hover, .actor:hover {
+  margin-top: -10px;
+}
+
 .page {
   padding: 8rem;
 }
+
 .topline, .middleline, .bottomline {
   display: flex;
   justify-content: space-around;
@@ -34,29 +60,26 @@ button {
   width: 200px;
   height: 200px;
   border-radius: 5px;
-  background: #d783ff;
+  background: $color-primary-0;
   font-size: 2rem;
-  border: 1px solid #d783ff;
-  color: grey;
-  transition: all 1s ease-in-out;
+  border: 1px solid $color-primary-0;
+  color: #23022B;
+  transition: all 0.3s ease-in-out;
 }
 button:hover {
   cursor: pointer;
   font-size: 2.2rem;
-  box-shadow: 34px 34px 69px #ffb1ff,
-  -34px 34px 69px #ffb1ff,
-  34px -34px 69px #ffb1ff,
-  -34px -34px 69px #ffb1ff;
   color: black;
-  margin-top: -10px;
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
 .borderleft, .borderright {
   width: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: black;
+  position: fixed;
   .box {
     width: 30px;
     height: 30px;
@@ -64,19 +87,19 @@ button:hover {
     border-radius: 5px;
     margin: 5px;
     background-color: white;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 }
 .borderleft {
-  margin-top: -1000px;
+  margin-top: -82%;
   .box:hover {
     margin-right: -3px;
     transition: all 0.3s ease-in-out;
   }
 }
 .borderright {
-  margin-left: 1875px;
-  margin-top: -1050px;
+  margin-left: 96.8%;
+  margin-top: -70.2%;
   .box:hover {
     margin-left: -3px;
     transition: all 0.3s ease-in-out;
