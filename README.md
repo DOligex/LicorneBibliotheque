@@ -20,7 +20,6 @@ This project is dedicated to build a project with among other lazy loading archi
 <img src="https://raw.githubusercontent.com/DOligex/devIcons/c7399b7aa0823661e4eedf4879caf61e41680c43/postman.svg?token=AMIZFZRA4T2DDV4NDVXJKZ27G35WS" title="Postman" alt="Postman logo" width="30">
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/apple/apple-original.svg" title="Mac" alt="Apple logo" width="30" height="30"/>
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/36c6d3ef63c06fe942b62da9303b559d8b4535b3/icons/vscode.svg" title="VSCode" alt="VSCode logo" width="30" height="30"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/slack/slack-original.svg" title="Slack" alt="Slack logo" width="30" height="30"/>
 </p>
 
 
