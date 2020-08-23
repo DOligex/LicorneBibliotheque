@@ -1,6 +1,7 @@
 <h1> Licorne Bibliotheque </h1>
 
-This project is dedicated to build a project with among other lazy loading architecture and it was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8. and was update to 9.1
+This project is dedicated to build a project with among other lazy loading architecture and typeOrm for the API part.
+It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8. and was update to 9.1
 
 <h4> Technologies used</h4>
 <p align="left">
