@@ -1,6 +1,7 @@
-# Licorne Bibliotheque
+<h1> Licorne Bibliotheque </h1>
 
 This project is dedicated to build a project with among other lazy loading architecture and it was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8. and was update to 9.1
+
 <h4> Technologies used</h4>
 <p align="left">
 <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" title="Javascript" alt="Javascript logo" width="30" height="30"/> 
@@ -22,9 +23,15 @@ This project is dedicated to build a project with among other lazy loading archi
 <img src="https://raw.githubusercontent.com/devicons/devicon/0d6c64dbbf311879f7d563bfc3ccf559f9ed111c/icons/slack/slack-original.svg" title="Slack" alt="Slack logo" width="30" height="30"/>
 </p>
 
-#### Tools documentation :
+
+<h4> Tools documentation : </h4>
+
+
 | Labels | Tools  | Documentation| 
 |--|--|--|
 |Versioning| Git  | [https://git-scm.com/docs/git-remote](https://git-scm.com/docs/git-remote) |
 | Images | Unsplash  | [Unsplash.com](https://unsplash.com/) |
 
+<h4>
+<a href="https://github.com/DOligex/LicorneBibliothequeApi" target="blank">API repository</a>
+</h4>
